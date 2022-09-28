@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "akshay-mundotia"
+  },
+  "targets": {
+    "akshay-mundotia": {
+      "hosting": {
+        "prod": [
+          "akshay-mundotia"
+        ],
+        "staging": [
+          "akshay-mundotia-staging"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
