@@ -24,6 +24,8 @@ jobs:
           retention-days: 1
 
   deploy:
+    name: Deploy to Firebase Hosting
+    needs : build_web
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
