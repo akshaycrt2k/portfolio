@@ -32,7 +32,7 @@ jobs:
       - name: Download Previously Built Artifact
         uses: actions/download-artifact@v3
         with:
-          name: build-web.tar
+          name: build-web
           path: build/
       - name: Extract Tar files
         run: tar -xvf build/build_web.tar
